@@ -2,13 +2,26 @@ import { Jobs } from "../types";
 
 export const jobs: Jobs[] = [
   {
+    company: "DEUNA",
+    position: [
+      {
+        title: "SSr Software Developer",
+        location: "Córdoba, Córdoba",
+        startDate: "02/2024",
+        endDate: "Actualidad",
+        functions:
+          "Desarrollo y mantención de diferentes aplicaciones frontend en React JS con server side rendering y client side rendering. Optimización del flujo de trabajo del equipo.",
+      },
+    ],
+  },
+  {
     company: "Telecom: Personal Pay",
     position: [
       {
         title: "Sr Software Developer",
         location: "Córdoba, Córdoba",
         startDate: "10/2023",
-        endDate: "Actualidad",
+        endDate: "02/2024",
         functions:
           "Referente técnico en desarrollo web microfrontend. Relevamiento y solución de problemas de performance y escalabilidad en aplicaciones web y móviles con React Native. Mentoring.",
       },
@@ -18,7 +31,7 @@ export const jobs: Jobs[] = [
         startDate: "10/2022",
         endDate: "10/2023",
         functions:
-          "Implementación del primer proyecto de la compañía con arquitectura microfrontend. Colaboración en el desarrollo de un Design System cross platform React Native para Web, iOS y Android. Desarrollo de servicios BFFs utilizando NestJs.",
+          "Implementación del primer proyecto de la compañía con microfrontends. Colaboración en un Design System cross platform React Native para Web, iOS y Android. Desarrollo de servicios BFFs con NestJs.",
       },
     ],
   },

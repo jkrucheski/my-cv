@@ -9,6 +9,19 @@ type Props = {
 };
 
 export const Jobs: FC<Props> = ({ experience }) => {
+  // const aux = () => {
+  //   console.log(
+  //     "--",
+  //     experience[experience.length - 2].position[0].startDate,
+  //     "06/2024"
+  //   );
+  //   const period = periodCalculator(
+  //     experience[experience.length - 2].position[0].startDate,
+  //     "06/2024"
+  //   );
+  //   console.log(period);
+  //   return period;
+  // };
   return (
     <>
       <Text text="Experiencia Laboral" variant="h1" />
