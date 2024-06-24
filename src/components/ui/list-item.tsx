@@ -18,7 +18,7 @@ export const ListItem: FC<Props> = ({
   return (
     <div className={variant === "bold" ? "my-1" : "mb-0.5"}>
       <div className="flex flex-row items-center justify-between">
-        <div className="flex flex-row items-end align-text-top	">
+        <div className="flex flex-row items-center align-text-top	">
           <Icon />
           {variant === "bold" ? (
             <Text text={title} variant="h3" />

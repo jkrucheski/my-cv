@@ -27,9 +27,9 @@ export const Jobs: FC<Props> = ({ experience }) => {
       }
       return `(${positions[0].startDate} - ${positions[0].endDate}, ${totalPeriod[0]})`;
     }
-    return `${positions[0].startDate} - ${positions[0].endDate}, ${totalPeriod
+    return `(${positions[0].startDate} - ${positions[0].endDate}, ${totalPeriod
       .reverse()
-      .join(" y ")}`;
+      .join(" y ")})`;
   };
 
   return (
