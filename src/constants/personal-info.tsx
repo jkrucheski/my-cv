@@ -2,7 +2,7 @@ import { PersonalInfo } from "../types/personal-info";
 
 export const personalInfo: PersonalInfo = {
   name: "Jonathan David Krucheski",
-  title: "Sr Software Developer | Ingeniero Electrónico",
+  title: "Software Developer | Ingeniero Electrónico",
   location: "Córdoba, Argentina",
   contact: [
     {

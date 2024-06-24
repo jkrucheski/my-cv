@@ -2,7 +2,7 @@ import { Jobs } from "../types";
 
 export const jobs: Jobs[] = [
   {
-    company: "DEUNA",
+    company: "Deuna",
     position: [
       {
         title: "SSr Software Developer",

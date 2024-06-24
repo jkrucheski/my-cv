@@ -34,5 +34,5 @@ export const periodCalculator = (sd: string, ed: string): string => {
     result += months === 1 ? "1 mes" : `${months} meses`;
   }
 
-  return `(${result})`;
+  return result;
 };
