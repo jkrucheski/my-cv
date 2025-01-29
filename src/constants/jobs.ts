@@ -10,7 +10,7 @@ export const jobs: Jobs[] = [
         startDate: "02/2024",
         endDate: "Actualidad",
         functions:
-          "Desarrollo y mantención de diferentes aplicaciones frontend en React JS con server side rendering y client side rendering. Optimización del flujo de trabajo del equipo.",
+          "Planteamiento e implementación de la migración del Design System principal de la empresa de Styled Components a TailwindCSS. Desarrollo del frontend de aplicación de IA multimodal con Next.js. Implementación de nuevas funcionalidades y mantención en la plataforma de checkout de pagos. Diseño e implementación de APIs REST en Python para servicios de IA. Optimización de procesos de equipo.",
       },
     ],
   },
